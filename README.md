@@ -7,13 +7,13 @@ If you need more than dev and prod (all that Ionic supports), you can use your N
 
 After changing the Webpack config, all the logic is encapsulated in the environment-variables module, so it's easy to copy and paste this solution into any Webpack configured Angular 2 app.
 
-###Use 'dev' environment variables
+### Use 'dev' environment variables
 `ionic serve`
 
-###Use 'prod' environment variables 
+### Use 'prod' environment variables 
 `ionic serve --prod`
 
-###Use 'qa' environment variables 
+### Use 'qa' environment variables 
 `npm run ionic:serve:qa`
 Or simply set NODE_ENV to 'qa' before running serve, which is what that npm script does.
 
